@@ -1,0 +1,7 @@
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\publish\Resume.exe
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\publish\appsettings.Development.json
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\publish\appsettings.json
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\publish\Resume.dll
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\publish\Resume.deps.json
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\publish\Resume.runtimeconfig.json
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\publish\Resume.pdb

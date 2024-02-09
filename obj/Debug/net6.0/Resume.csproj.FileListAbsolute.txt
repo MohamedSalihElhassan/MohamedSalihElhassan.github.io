@@ -50,3 +50,9 @@ c:\Users\mohds\Documents\GitHub\Personal-Portfolio\obj\Debug\net6.0\refint\Resum
 c:\Users\mohds\Documents\GitHub\Personal-Portfolio\obj\Debug\net6.0\Resume.pdb
 c:\Users\mohds\Documents\GitHub\Personal-Portfolio\obj\Debug\net6.0\Resume.genruntimeconfig.cache
 c:\Users\mohds\Documents\GitHub\Personal-Portfolio\obj\Debug\net6.0\ref\Resume.dll
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\published\web.config
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\published\appsettings.Development.json
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\published\appsettings.json
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\published\Resume.deps.json
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\published\Resume.runtimeconfig.json
+C:\Users\mohds\Documents\GitHub\Personal-Portfolio\bin\Debug\net6.0\published\wwwroot\courses.json
