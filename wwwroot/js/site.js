@@ -80,7 +80,7 @@ function createCourseElement(course, index, searchInput) {
                 <h2>${course.course}</h2>
                 <p>
                     <strong>Description:</strong> 
-                    <span class="short-description">${descriptionNeedsShortening ? shortDescription + '...' : course.description}</span>
+                    <span class="short-description">${descriptionNeedsShortening ? shortDescription + '...'  : course.description}</span>
                     ${descriptionNeedsShortening ? `<span class="full-description" style="display:none;">${fullDescription}</span>
                     <a href="#" class="read-more" onclick="toggleDescription(${index}); return false;">+ Read more</a>` : ''}
                 </p>
@@ -122,7 +122,7 @@ function toggleDescription(index) {
     if (shortDescriptionElement.style.display !== "none") {
         shortDescriptionElement.style.display = "none";
         fullDescriptionElement.style.display = "inline";
-        readMoreLink.innerText = "- Show less";
+        readMoreLink.innerHTML = "<br>- Show less";
     } else {
         shortDescriptionElement.style.display = "inline";
         fullDescriptionElement.style.display = "none";
