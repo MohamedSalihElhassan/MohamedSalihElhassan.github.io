@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    @{
+    ViewData["Title"] = "Home";
+    }
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body>
+    <header>
+            <div class="page-banner">
+                <img src="~/page-banner.jpg" alt="banner" class="banner-image"></img>
+                <div><h1>Hi There</h1></div>
+            </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <img src="~/personal-photo.jpg" alt="personal photo" class="personal-photo">
+            </div>
+            <div class="col-md">
+                <div class="about-header">
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-summary">
+                    <p>With experience in building computers, and passion for creative design.
+                    I have been honing my skills in writing code and creating databases in 
+                    my current course, as a student in computer programming at 
+                    <a href="https://www.algonquincollege.com/">Algonquin College of Applied 
+                    Arts and Technology</a>. I have been interested in the world of programming, 
+                    initially being introduced to it through my passion for game development. I 
+                    have found that I am well equipped in creating, being self-motivated, driven 
+                    and having a particular attention to detail. I am also open to ideas and 
+                    find thrill in trying new things, and this allows me to thrive in a healthy 
+                    learning environment making computer programming the ideal field to pursue 
+                    and grow in throughout my professional journey.
+                    </p>
+                </div>
+                <div class="more-info">
+                    <a class="my-button" asp-area="" asp-controller="Home" asp-action="Resume">Find out more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

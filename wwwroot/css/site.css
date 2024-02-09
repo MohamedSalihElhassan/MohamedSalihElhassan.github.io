@@ -1,0 +1,223 @@
+
+
+*{
+    font-family: Inter, sans-serif;
+    font-weight:500;
+}
+
+input{
+    width:80%;
+    border: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: .25%;
+}
+
+.my-button {
+    display: inline-block;
+    padding: 2px 5px;
+    background-color: white;
+    border: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: black;
+    text-decoration: none;
+    color: black;
+}
+
+.my-button:hover {
+    transition: 0.25s;
+    background-color: #333;
+    color: white;
+    border-color: white;
+}
+
+.course .code, .level{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.about-header {
+    border-bottom: 1px solid lightgray;
+}
+
+.about-summary{
+    margin-top: 1%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 4%;
+    margin: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personal-photo{
+    border-radius: 100%;
+}
+
+.page-banner{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.more-info-button{
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.contact-info,
+.course-nav-bar{
+    text-align: center;
+    padding: 2%;
+    margin: 3%;
+}
+
+.contact-info{
+    text-align: center;
+}
+
+.contact-link{
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none
+}
+
+.contact-link:hover{
+    color: black;
+    transition: 0.075s;
+}
+
+.nav-bar{
+    background-color: #333;
+}
+
+.resume-header{
+    grid-column: 2;
+}
+
+.resume-header h5{
+    border-bottom: 1px solid lightgray;
+}
+
+h2{
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h4{
+    font-weight: bold;
+    color: #0077cc;
+}
+
+.grid-container{
+    flex: 1;
+    display: grid;
+    row-gap: 5%;
+    column-gap: 5%;
+}
+
+.experience{
+    grid-column: 1;
+    grid-row: 1;
+    border-bottom: solid 1px lightgrey;
+}
+
+.experience-instance-1{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.experience-instance-2{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.education{
+    grid-column: 2;
+    grid-row: 1;
+    border-bottom: solid 1px lightgrey;
+}
+
+.education-instance-1{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.education-instance-2{
+    grid-column: 2;
+    grid-row: 3; 
+}
+.skill-header{
+    border-bottom: solid 1px lightgrey;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.skills{
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.skill-list{
+    display: grid;
+    row-gap: 10%;
+    column-gap: 10%;
+}
+
+.skill-instance-1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.skill-instance-2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.skill-instance-3{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.skill-instance-4{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+h1{
+    background-color: transparent;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+}
+
+.banner-image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    margin-top: 3%;
+}
+
+.search-display {
+    color: gray;
+    padding: 0% 0% 0% 2%;
+    margin: 0% 0% 0% 0%;
+    visibility: hidden; /* Initially hidden */
+}

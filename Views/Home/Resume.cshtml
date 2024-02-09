@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @{
+        ViewData["Title"] = "Resume";
+    }
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body>
+    <header>
+        <div class="resume-header container">
+            <h2>Mohamed Elhassan</h2>
+            <h5>Student In Computer Programming</h5>
+            <p class="resume-summary">
+            Recent computer programming graduate with a strong foundation in building computers and a passion for
+            creative design. Skilled in writing code, creating databases, and enthusiastic about joining a
+            high-caliber software development team. Eager to contribute to both front end and back end development
+            of web and mobile applications. Seeking opportunities to apply my attention to detail and collaborate
+            in a dynamic tech environment.
+            </p>
+        </div>
+
+        <nav class="nav-bar">
+            <div class="container">
+                <div class="row contact-info">
+                    <div class="col-md contact-column">
+                        <a class="contact-link" href="mailto:mohamedsalihh@outlook.com" target="_blank">
+                            <i class="fa fa-envelope" style="font-size: 125%; margin: 1%"></i>mohamedsalihh@outlook.com
+                        </a>
+                    </div>
+                    <div class="col-md contact-column">
+                        <a class="contact-link" href="tel:+13435767211">
+                            <i class="fa fa-phone" style="font-size: 125%;  margin: 1%"></i>+1 343 576 7211
+                        </a>
+                    </div>
+                    <div class="col-md contact-column">
+                        <a class="contact-link" href="https://www.linkedin.com/in/mohamed-salih-elhassan" target="_blank">
+                            <i class="fa fa-linkedin-square" style="font-size: 125%; margin: 1%"></i>LinkedIn
+                        </a>
+                    </div>
+                    <div class="col-md contact-column">
+                        <a class="contact-link" href="https://github.com/MohamedSalihElhassan" target="_blank">
+                            <i class="fa fa-github" style="font-size:125%; margin: 1%"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+
+    <div class="grid-container container">
+
+        <div class="education">
+            <h2>Education</h2>
+        </div>
+        <div class="education-instance-1">
+            <h4>Computer Programming College Diploma</h4>
+            <h5>Algonquin College of Applied Arts and Technology</h5>
+            <h6>Ottawa, ON</h6>
+            <p class="duration">2022 - 2024</p>
+            <p class="description">
+                Completed a two-year Computer Programming Ontario College Diploma program with a focus on software
+                development, object-oriented modeling, and database design. Proficient in programming languages such
+                as Java, COBOL, SQL, and PHP. Hands-on experience with industry-leading tools like Oracle and CASE.
+                Emphasized practical skills in debugging, testing, and code maintenance. Successfully completed a
+                collaborative software development project with external clients in the final semester.
+            </p>
+            <div class="more-info">
+                <a class="my-button"asp-area="" asp-controller="Home" asp-action="Courses">More about the course</a>
+            </div>
+        </div>
+        <br>
+        <div class="education-instance-2">
+            <h4>Cambridge IGCSE</h4>
+            <h5>The Winchester School</h5>
+            <h6>Jebel Ali</h6>
+            <p class="duration">2019 – 2021</p>
+            <p class="description">
+                Completed the International General Certificate of Secondary Education (IGCSE) at The Winchester
+                School, Jebel Ali. Studied subjects including Math, Physics, Chemistry, Biology, English, Arabic, and
+                Information Technology (IT).
+            </p>
+        </div>
+
+        <div class="experience">
+            <h2>Experience</h2>
+        </div>
+        <div class="experience-instance-1">
+            <h4>Retail Clerk</h4>
+            <h5>Loblaws Company Limited</h5>
+            <h6>Ottawa, ON</h6>
+            <p>Jan 2023 – Present</p>
+            <p class="description">
+                <ul>
+                    <li>Monitored inventory levels and restocked expired products to maintain company standards,
+                        showcasing attention to detail.</li>
+                    <li>Assisted customers by directing them to their desired product, demonstrating effective
+                        communication skills.</li>
+                    <li>Organized the preparation room to assist co-workers in navigating their equipment easily,
+                        highlighting organizational abilities.</li>
+                </ul>
+            </p>
+        </div>
+        <br>
+        <div class="experience-instance-2">
+            <h4>Retail Clerk</h4>
+            <h5>Metro Ontario</h5>
+            <h6>Ottawa, ON</h6>
+            <p>Sep 2022 – Dec 2022</p>
+            <p class="description">
+                <ul>
+                    <li>Communicated concerns with co-workers and managers and assisted them in attending to urgent
+                        matters and important tasks, demonstrating effective communication and teamwork.</li>
+                    <li>Packaged products, put them on their designated shelves, and regularly sorted them to keep them
+                        organized, showcasing adaptability.</li>
+                    <li>Adapted quickly to new responsibilities and adjusted accordingly to new tasks, highlighting
+                        flexibility.</li>
+                </ul>
+            </p>
+        </div>
+
+        @* <div class="skill-header">
+            <h2>Skills</h2>
+        </div>
+        <div class="skills">
+            <div class="skill-list"> 
+                <div class="skill-instance-1">
+                    <h4>Web Development:</h4> 
+                    <ul>
+                        <li>PHP</li>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>JSON</li>
+                    </ul>
+                </div>
+                <div class="skill-instance-2">
+                    <h4>Database Systems:</h4> 
+                    <ul>
+                        <li>MySQL</li> 
+                        <li>PL/SQL</li>
+                        <li>PostgreSQL</li>
+                        <li>Microsoft SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-instance-3">
+                    <h4>Object-Oriented Programming:</h4>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+                <div class="skill-instance-4">
+                    <h4>Scripting: </h4> 
+                    <ul>
+                        <li>Bash</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div> *@
+
+    </div>
+</body>
+
+</html>
