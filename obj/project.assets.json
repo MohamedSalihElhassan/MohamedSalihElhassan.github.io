@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mohds\\C#\\Resume\\Resume.csproj",
+      "projectUniqueName": "c:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\Resume.csproj",
       "projectName": "Resume",
-      "projectPath": "C:\\Users\\mohds\\C#\\Resume\\Resume.csproj",
+      "projectPath": "c:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\Resume.csproj",
       "packagesPath": "C:\\Users\\mohds\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mohds\\C#\\Resume\\obj\\",
+      "outputPath": "c:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mohds\\AppData\\Roaming\\NuGet\\NuGet.Config",
