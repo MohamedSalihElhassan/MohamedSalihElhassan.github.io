@@ -41,15 +41,21 @@ function renderCourses(courses) {
         coursesContainer.appendChild(courseElement);
     });
 
-    // Update search display
-    if (foundCourses) {
-        searchDisplay.innerHTML = `Search: ${searchInput}`;
-        searchDisplay.style.visibility = "visible";
-    } else {
-        searchDisplay.innerHTML = "No courses found.";
-        searchDisplay.style.visibility = "visible";
+    if(searchInput){
+        if(foundCourses){
+            searchDisplay.innerHTML=`Search: ${searchInput}`
+            searchDisplay.style.visibility = "visible";
+        }
+        else{
+            searchDisplay.innerHTML="No courses found.";
+            searchDisplay.style.visibility = "visible";
+        }
+    }
+    else{
+        searchDisplay.style.visibility = "hidden";
     }
 }
+
 
 // Create HTML element for a single course
 function createCourseElement(course, index, searchInput) {
@@ -62,6 +68,9 @@ function createCourseElement(course, index, searchInput) {
     const shortDescription = course.description.substring(0, lineBreakIndex);
     const fullDescription = course.description;
 
+    // Check if description needs to be shortened
+    const descriptionNeedsShortening = course.description.length > lineBreakIndex;
+
     courseElement.innerHTML = `
         <div class="row course">
             <div class="col-md-3 code">
@@ -70,9 +79,10 @@ function createCourseElement(course, index, searchInput) {
             <div class="col-md description">
                 <h2>${course.course}</h2>
                 <p>
-                    <span class="short-description">${shortDescription}</span>
-                    <span class="full-description" style="display:none;">${fullDescription}</span>
-                    <a href="#" class="read-more" onclick="toggleDescription(${index}); return false;">+ Read more</a>
+                    <strong>Description:</strong> 
+                    <span class="short-description">${descriptionNeedsShortening ? shortDescription + '...' : course.description}</span>
+                    ${descriptionNeedsShortening ? `<span class="full-description" style="display:none;">${fullDescription}</span>
+                    <a href="#" class="read-more" onclick="toggleDescription(${index}); return false;">+ Read more</a>` : ''}
                 </p>
             </div>
             <div class="col-md-2 level">
@@ -98,11 +108,6 @@ function findLineBreakIndex(description, lines) {
 
     if (index === -1) {
         index = Math.min(description.length, 160);
-    } else {
-        // Check if the final character before the line break is not whitespace
-        while (index > 0 && !/\s/.test(description[index - 1])) {
-            index--;
-        }
     }
 
     return index;

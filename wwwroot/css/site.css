@@ -1,5 +1,3 @@
-
-
 *{
     font-family: Inter, sans-serif;
     font-weight:500;
@@ -54,6 +52,7 @@ input{
     padding: 4%;
     margin: 2%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
 }
 
 .personal-photo{
@@ -61,8 +60,30 @@ input{
 }
 
 .page-banner{
+    position: relative;
     width: 100%;
-    margin-bottom: 3%;
+    text-align: center;
+}
+.page-banner h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-grid{
+    display: grid;
+    column-gap: 2%;
+}
+
+.about-image{
+    grid-column: 1;
+}
+
+.about-body{
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 .more-info-button{
@@ -193,18 +214,6 @@ h4{
     grid-row: 2;
 }
 
-h1{
-    background-color: transparent;
-    padding: 10px 20px;
-    text-align: center;
-    color: white;
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    font-size: 500%;
-}
-
 .banner-image{
     display: block;
     width: 100%;
@@ -219,5 +228,39 @@ h1{
     color: gray;
     padding: 0% 0% 0% 2%;
     margin: 0% 0% 0% 0%;
-    visibility: hidden; /* Initially hidden */
+    visibility:hidden; /* Initially hidden */
+}
+
+.read-more{
+    color: gray;
+    text-decoration: none;
+}
+
+.read-more:hover{
+    color:  gray;
+    text-decoration: underline;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    /* Add your mobile styles here */
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Add your tablet styles here */
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+    /* Add your desktop styles here */
+    body {
+        font-size: 18px;
+    }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\Resume.csproj": {}
+    "c:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\Resume.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\Resume.csproj": {
+    "c:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\Resume.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\Resume.csproj",
+        "projectUniqueName": "c:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\Resume.csproj",
         "projectName": "Resume",
-        "projectPath": "C:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\Resume.csproj",
+        "projectPath": "c:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\Resume.csproj",
         "packagesPath": "C:\\Users\\mohds\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\obj\\",
+        "outputPath": "c:\\Users\\mohds\\Documents\\GitHub\\Personal-Portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohds\\AppData\\Roaming\\NuGet\\NuGet.Config",
